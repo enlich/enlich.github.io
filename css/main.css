@@ -1,0 +1,60 @@
+.LinkList {
+  border: 2px solid green;
+  text-align: left;
+  font-family: monospace;
+  display: table;
+}
+
+.LinkList h1 {
+  margin: 10px 5px 10px 5px;
+}
+
+.LinkList ul {
+  margin: 10px 5px 10px 5px;
+}
+
+.LinkList li {
+  list-style-type: '> ';
+  margin: 0px 0px 0px 0px;
+}
+
+.CodeBlock {
+  border: 2px solid green;
+  text-align: left;
+  font-family: monospace;
+  display: table;
+  white-space: pre-line;
+  margin: 10px;
+  padding: 5px;
+  font-size: 1.4vw;
+}
+
+a {
+  color: LawnGreen;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body.MainBody {
+  background-color: black;
+  color: green;
+  font-size: 2vw;
+}
+
+.VerboseText {
+  font-family: monospace;
+  border: 1px solid green;
+  padding: 2px;
+  margin: 1px;
+  display: inline-block;
+  color: LawnGreen;
+}
+
+.Footer {
+  font-family: serif;
+  margin: 2px;
+  color: Chartreuse;
+}
